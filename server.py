@@ -47,6 +47,3 @@ class Socket:
         return self.startTime, f"""
         [I] Connection closed.\n
         [I] Total session time """
-
-socket1 = Socket(netType=socket.AF_INET, conType=socket.SOCK_STREAM, host="127.0.0.1", port=55555)
-socket1.connect()
